@@ -49,21 +49,3 @@ const deleteData = async (id:string)=>{
     }
 }
 
-
-// const deleteData = async (id: string) => {
-//   try {
-//     // Validate and convert the ID to mongoose.Types.ObjectId
-//     // const validId: mongoose.Types.ObjectId = mongoose.Types.ObjectId(id);
-
-//     // Use the ID to delete the todo
-//     const deleteTodo = await TodoModel.deleteOne({ _id: validId });
-
-//     if (deleteTodo.deletedCount && deleteTodo.deletedCount > 0) {
-//       console.log(`Todo with ID ${id} deleted successfully`);
-//     } else {
-//       console.log(`Todo with ID ${id} not found`);
-//     }
-//   } catch (err) {
-//     console.error('Error deleting todo:', err);
-//   }
-// };
